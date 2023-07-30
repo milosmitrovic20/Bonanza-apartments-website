@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: "Raleway",sans-serif;
+}
+
 a{
     color: #fff;
     text-decoration: none;
@@ -17,9 +21,39 @@ a{
   --bggrey: rgb(245, 245, 245);
 }
 
-.section{
-    padding: 160px 120px;
+.section-line{
+    width: 200px;
+    height: 1px;
+    background: #000;
+    margin-top: 30px;
 }
+
+.txt-caps{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.h1-el-fnt{
+    font-family: "Libre Caslon Display",serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.h2-el-fnt{
+    font-family: "Libre Caslon Display",serif;
+    font-weight: 400;
+    font-size: calc(18px + 1vw);
+}
+
+.mt{
+    margin-top: 30px;
+}
+
+.fs{
+    line-height: 1.7;
+}
+
+/* ----------------------- root---------------------------------- */
 
 header{
     color: #fff;
@@ -66,18 +100,18 @@ header{
 }
 
 .btn{
-    text-transform: uppercase;
     color: #fff;
     background-color: var(--gold);
     border: 1px solid var(--gold);
-    padding: 10px 30px;
-    letter-spacing: 3px;
+    padding: 12px 37px;
+    letter-spacing: 4px;
     text-decoration: none;
 }
 
-
 .best-rate{
-    margin-top: 10px;
+    font-size: 8px;
+    letter-spacing: 3px;
+    margin-top: 17px;
 }
 
 .nav-bar{
@@ -92,23 +126,79 @@ header{
 }
 
 .nav-menu li a{
-    text-transform: uppercase;
-    margin-left: 30px;
-    letter-spacing: 1px;
+    margin-left: 50px;
+    letter-spacing: 2px;
     text-decoration: none;
 }
 
+/* ----------------------- HEADER ---------------------------------- */
 
 .about-us{
     position: relative;
     display: flex;
     justify-content: space-between;
+    padding: 160px 120px;
 }
 
 .about-us .about{
     width: 50%;
 }
 
+.about-us p{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
 .about-us .mini-gallery img{
     width: 50%;
+}
+
+/* ----------------------- GALLERY ---------------------------------- */
+
+.gallery{
+    background-color: var(--bggrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 120px;
+}
+
+.gallery h2{
+    margin-top: 10px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.gallery-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-container .w-three{
+    height: 500px;
+    width: 55%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.gallery-container .w-two{
+    height: 500px;
+    width: 39%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.gallery-container .w-one{
+    height: 500px;
+    width: 26%;
+    margin-top: 3%;
+    margin-right: 3%;
 }
