@@ -94,11 +94,6 @@ header{
     padding-right: 80px;
 }
 
-.nav-bar{
-    display: flex;
-    background-color: rgba(0,0,0,.3);
-    height: 52px;
-}
 
 .booking{
     display: flex;
@@ -125,6 +120,8 @@ header{
 
 .nav-bar{
     display: flex;
+    background-color: rgba(0,0,0,.3);
+    height: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -135,8 +132,9 @@ header{
 }
 
 .nav-menu li a{
+    font-size: 14px;
     margin-left: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-decoration: none;
 }
 
@@ -277,4 +275,28 @@ header{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* ------------------- FOOTER ------------------------ */
+
+footer{
+    padding: 120px 120px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top-left{
+    width: 30%;
+    line-height: 1.5;
+}
+
+.footer-top-right{
+    display: flex;
+}
+
+.social-networks a{
+    color: #000;
 }
