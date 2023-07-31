@@ -53,6 +53,15 @@ a{
     line-height: 1.7;
 }
 
+.ptb{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.plr{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* ----------------------- root---------------------------------- */
 
 header{
@@ -133,8 +142,16 @@ header{
 
 /* ----------------------- HEADER ---------------------------------- */
 
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ----------------------- HERO ------------------------------------ */
+
 .about-us{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
     padding: 160px 120px;
@@ -226,10 +243,38 @@ header{
 }
 
 .apartments .apartments-container .apartments-container-item{
+    height: 500px;
     width: 31%;
     margin: 0 1%;
 }
 
-.apartments .apartments-container .apartments-container-item .apartment-image img{
+.apartments .apartments-container .apartment-item{
+    display: flex;
+    position: relative;
+}
+
+.apartments .apartments-container .apartment-content-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    position: absolute;
+    height: 100%;
     width: 100%;
+    top: 0;
+}
+
+.apartments .apartments-container .apartment-content-overlay .apartment-title{
+    transform: translateY(20px);
+    transition: all .25s ease-in-out;
+}
+
+.apartments .apartments-container .apartments-container-item .apartment-image{
+    width: 100%;
+}
+
+.apartments .apartments-container .apartments-container-item .apartment-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
