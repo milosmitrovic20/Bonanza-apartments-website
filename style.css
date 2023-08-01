@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +8,7 @@
 }
 
 html{
-    font-family: "Raleway",sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -34,15 +37,21 @@ a{
 }
 
 .h1-el-fnt{
-    font-family: "Libre Caslon Display",serif;
     font-weight: 300;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .h2-el-fnt{
-    font-family: "Libre Caslon Display",serif;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.fnt-w-l{
+    font-weight: 300;
+}
+
+.fnt-w-b{
+    font-weight: 500;
 }
 
 .mt{
@@ -152,11 +161,21 @@ header{
     /* position: relative; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 160px 120px;
 }
 
 .about-us .about{
+    padding-right: 80px;
     width: 50%;
+}
+
+.about-us .about h1{
+    font-size: 40px;
+}
+
+.about-us .about h2{
+    font-size: 30px;
 }
 
 .about-us p{
@@ -164,8 +183,12 @@ header{
     font-size: 14px;
 }
 
-.about-us .mini-gallery img{
+.about-us .mini-gallery{
     width: 50%;
+}
+
+.about-us .mini-gallery img{
+    width: 100%;
 }
 
 /* ----------------------- GALLERY ---------------------------------- */
@@ -280,7 +303,9 @@ header{
 /* ------------------- FOOTER ------------------------ */
 
 footer{
+    background-color: var(--bggrey);
     padding: 120px 120px;
+    position: relative;
 }
 
 .footer-top{
@@ -293,10 +318,54 @@ footer{
     line-height: 1.5;
 }
 
+.footer-top-left .social-networks a{
+    margin-right: 20px;
+    font-size: 22px;
+}
+
 .footer-top-right{
+    width: 30%;
     display: flex;
+}
+
+.footer-top-right .line{
+    position: absolute;
+    height: 350px;
+    top: 10%;
+    width: 2px;
+    background: #deddde;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.email-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-form form input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .social-networks a{
     color: #000;
+}
+
+footer p {
+    font-weight: 300;
+}
+
+.footer-down{
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
