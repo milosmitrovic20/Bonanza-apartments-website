@@ -141,7 +141,7 @@ header{
 }
 
 .nav-menu li a{
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 50px;
     letter-spacing: 3px;
     text-decoration: none;
@@ -241,6 +241,29 @@ header{
     margin-right: 3%;
 }
 
+/* ----------------------- GALLERY VIDEO ------------------------ */
+
+.video{
+    background-color: var(--bggrey);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20.5%;
+}
+
+.video .video-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+}
+
+.video .video-container .video-item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
 /* ----------------------- APARTMENTS -------------------------- */
 
