@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Raleway:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -60,6 +60,14 @@ a{
 
 .fs{
     line-height: 1.7;
+}
+
+.hidden-fnt{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
 }
 
 .ptb{
@@ -309,8 +317,16 @@ header{
 }
 
 .apartments .apartments-container .apartment-content-overlay .apartment-title{
+    font-size: 30px;
+    font-weight: 300;
     transform: translateY(20px);
     transition: all .25s ease-in-out;
+}
+
+.apartments .aparment-content-overlay-hidden {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .apartments .apartments-container .apartments-container-item .apartment-image{
