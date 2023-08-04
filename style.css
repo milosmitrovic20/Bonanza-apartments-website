@@ -347,13 +347,14 @@ header{
 
 footer{
     background-color: var(--bggrey);
-    padding: 120px 120px;
+    padding: 120px 120px 20px 120px;
     position: relative;
 }
 
 .footer-top{
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .footer-top-left{
