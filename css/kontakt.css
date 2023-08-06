@@ -7,6 +7,10 @@
     color: #fff;
 }
 
+.contact h1{
+    font-size: 42px;
+}
+
 .contact{
     padding: 120px 120px;
     display: flex;
@@ -29,9 +33,30 @@
 
 .line{
     position: absolute;
-    height: 100px;
+    height: 100%;
     width: 1px;
     background: #000;
+}
+
+.card-name{
+    width: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.card a{
+    display: flex;
+}
+
+.card-info{
+    margin-top: 20px;
+    margin-left: 80px;
+    /* font-weight: 300; */
 }
 
 .contact-right{
@@ -67,4 +92,10 @@
     width: 100%;
     margin-top: 80px;
     padding: 0 20px 20px 20px;
+}
+
+.contact-down .social-networks a{
+    margin-right: 20px;
+    font-size: 22px;
+    color: #000;
 }

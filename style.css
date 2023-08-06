@@ -58,6 +58,10 @@ a{
     margin-top: 30px;
 }
 
+.ml-lg{
+    margin-left: 80px;
+}
+
 .fs{
     line-height: 1.7;
 }
@@ -365,6 +369,7 @@ footer{
 .footer-top-left .social-networks a{
     margin-right: 20px;
     font-size: 22px;
+    color: #000;
 }
 
 .footer-top-right{
@@ -398,10 +403,6 @@ footer{
     padding-bottom: 10px;
     font-size: 16px;
     font-weight: 200;
-}
-
-.social-networks a{
-    color: #000;
 }
 
 footer p {
