@@ -97,6 +97,11 @@ a{
     background-color: var(--bggrey);
 }
 
+.footer-bg{
+    background-color: #fff;
+    border-top: 1px solid black;
+}
+
 .hero-content{
     position: absolute;
     top: 50%;
@@ -181,6 +186,11 @@ header{
     margin-left: 50px;
     letter-spacing: 3px;
     text-decoration: none;
+}
+
+.nav-menu li a:hover{
+    color: var(--gold);
+    transition: all 0.25s ease-in;
 }
 
 /* ----------------------- HEADER ---------------------------------- */
@@ -438,3 +448,6 @@ footer p {
     justify-content: center;
     align-items: end;
 }
+
+/* ------------------- Gallery Apartments ----------------- */
+
