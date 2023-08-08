@@ -1,0 +1,32 @@
+.restaurants{
+    padding: 160px 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 300;
+}
+
+.restaurants-content{
+    width: 50%;
+}
+
+.restaurants-content .text{
+    padding-left: 0;
+}
+
+.restaurants-content .text h2{
+    font-weight: 400;
+}
+
+.restaurants-content a{
+    display: flex;
+    color: #000;
+}
+
+.restaurants-image{
+    width: 50%;
+}
+
+.restaurants-image img{
+    width: 100%;
+}
