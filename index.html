@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/dbad9f8d2b.js" defer crossorigin="anonymous"></script>
     <title>Bonanza | Apartments | Nis</title>
@@ -57,11 +58,11 @@
             <h2 class="txt-caps h2-el-fnt">Elegancija do zadnjeg detalja</h2>
             <div class="section-line"></div>
             <div class="gallery-container">
-                <div class="image w-two"><img src="images/image7.jpg" alt="alternative"></div>
-                <div class="image w-three"><img src="images/image6.jpg" alt=""></div>
-                <div class="image w-two"><img src="images/image8.jpg" alt=""></div>
-                <div class="image w-one"><img src="images/image9.jpg" alt=""></div>
-                <div class="image w-one"><img src="images/image10.jpg" alt=""></div>
+                <div class="image w-two"><a href="images/image7.jpg" data-lightbox="apartment img"><img src="images/image7.jpg" alt=""></a></div>
+                <div class="image w-three"><a href="images/image6.jpg" data-lightbox="apartment img"><img src="images/image6.jpg" alt=""></a></div>
+                <div class="image w-two"><a href="images/image8.jpg" data-lightbox="apartment img"><img src="images/image8.jpg" alt=""></a></div>
+                <div class="image w-one"><a href="images/image9.jpg" data-lightbox="apartment img"><img src="images/image9.jpg" alt=""></a></div>
+                <div class="image w-one"><a href="images/image10.jpg" data-lightbox="apartment img"><img src="images/image10.jpg" alt=""></a></div>
             </div>
         </section>
         <section class="section apartments">
@@ -137,5 +138,7 @@
             <p>Sva prava zadržana © 2023</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
