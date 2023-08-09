@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="lightbox.css">
     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/dbad9f8d2b.js" defer crossorigin="anonymous"></script>
     <title>Bonanza | Apartments | Nis</title>
@@ -58,12 +57,81 @@
             <h2 class="txt-caps h2-el-fnt">Elegancija do zadnjeg detalja</h2>
             <div class="section-line"></div>
             <div class="gallery-container">
-                <div class="image w-two"><a href="images/image7.jpg" data-lightbox="apartment img"><img src="images/image7.jpg" alt=""></a></div>
-                <div class="image w-three"><a href="images/image6.jpg" data-lightbox="apartment img"><img src="images/image6.jpg" alt=""></a></div>
-                <div class="image w-two"><a href="images/image8.jpg" data-lightbox="apartment img"><img src="images/image8.jpg" alt=""></a></div>
-                <div class="image w-one"><a href="images/image9.jpg" data-lightbox="apartment img"><img src="images/image9.jpg" alt=""></a></div>
-                <div class="image w-one"><a href="images/image10.jpg" data-lightbox="apartment img"><img src="images/image10.jpg" alt=""></a></div>
+                <div class="image w-two">
+                    <img src="images/image7.jpg" onclick="openModal();currentSlide(1)" alt="">
+                </div>
+                <div class="image w-three">
+                    <img src="images/image6.jpg" onclick="openModal();currentSlide(2)" alt="">
+                </div>
+                <div class="image w-two">
+                    <img src="images/image8.jpg" onclick="openModal();currentSlide(3)" alt="">
+                </div>
+                <div class="image w-one">
+                    <img src="images/image9.jpg" onclick="openModal();currentSlide(4)" alt="">
+                </div>
+                <div class="image w-one">
+                    <img src="images/image10.jpg" onclick="openModal();currentSlide(5)" alt="">
+                </div>
             </div>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/image7.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/image6.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/image8.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/image9.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/image10.jpg" style="width:100%">
+                  </div>
+              
+                  <!-- Next/previous controls -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                  <div class="mini-slider">
+                    <a class="mini-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <div class="column">
+                        <img class="demo" src="images/image7.jpg" onclick="currentSlide(1)" alt="">
+                      </div>
+                  
+                      <div class="column">
+                        <img class="demo" src="images/image6.jpg" onclick="currentSlide(2)" alt="">
+                      </div>
+                  
+                      <div class="column">
+                        <img class="demo" src="images/image8.jpg" onclick="currentSlide(3)" alt="">
+                      </div>
+                  
+                      <div class="column">
+                        <img class="demo" src="images/image9.jpg" onclick="currentSlide(4)" alt="">
+                      </div>
+    
+                      <div class="column">
+                        <img class="demo" src="images/image10.jpg" onclick="currentSlide(5)" alt="">
+                      </div>
+                      <a class="mini-next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                </div>
+              </div>
         </section>
         <section class="section apartments">
             <h1 class="h1-el-fnt">Apartmani</h1>
@@ -138,7 +206,6 @@
             <p>Sva prava zadržana © 2023</p>
         </div>
     </footer>
-    <script src="js/script.js"></script>
-    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
