@@ -553,11 +553,6 @@ footer p {
     font-weight: 300;
 }
 
-.acomodation-item-content-description .btn{
-    display: flex;
-    justify-content: flex-end;
-}
-
 /* ------------------- Mini Gallery Slider----------------------- */
 
 .image:hover{
