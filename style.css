@@ -58,6 +58,10 @@ a{
     margin-top: 30px;
 }
 
+.ml-sm{
+    margin-left: 30px;
+}
+
 .mt-sm{
     margin-top: 10px;
 }
@@ -497,7 +501,64 @@ footer p {
     height: 100%;
 }
 
-/* ------------------- Mini Gallery ----------------------- */
+/* ------------------- Apartments ------------------------------- */
+
+.accommodation{
+    background-color: var(--bggrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+}
+
+.accommodation-item{
+    margin-top: 80px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.accommodation-item:first-child {
+    margin-top: 0;
+}
+
+.accommodataion-item-image{
+    width: 65%;
+    height: 610px;
+}
+
+.accommodataion-item-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.accommodation-item-content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.accomod-p-fnt{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.acomodation-item-content-description ul li{
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.acomodation-item-content-description .btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ------------------- Mini Gallery Slider----------------------- */
 
 .image:hover{
     cursor: pointer;
