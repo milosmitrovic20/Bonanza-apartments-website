@@ -287,13 +287,22 @@ header{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    transition: .5s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.image-overlay p{
+    color: #fff;
+    opacity: 0;
+    transition: all .25s ease-in-out .25s;
 }
 
 .image:hover .image-overlay{
     height: 100%;
 }
 
+.image:hover p{
+    opacity: 1;
+}
 
 .gallery-container img{
     width: 100%;
@@ -368,7 +377,7 @@ header{
 }
 
 .apartments .apartments-container .apartments-container-item{
-    height: 500px;
+    height: 550px;
     width: 31%;
     margin: 0 1%;
 }
@@ -378,20 +387,26 @@ header{
     position: relative;
 }
 
-.apartments .apartments-container .apartment-content-overlay{
-    background-color: rgb(0, 0, 0, 0.3);
+.apartment-image{
+    position: relative;
+}
+
+.apartment-image img{
+    display: block;
+}
+
+.apartment-content-overlay{
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: left;
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
 }
 
-.apartments .apartments-container .apartment-content-overlay .apartment-title{
+.apartment-title{
     font-size: 30px;
     font-weight: 300;
     transform: translateY(20px);
@@ -399,16 +414,31 @@ header{
 }
 
 .apartments .aparment-content-overlay-hidden {
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 1px;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all .25s ease-in-out;
 }
 
-.apartments .apartments-container .apartments-container-item .apartment-image{
+.apartment-image:hover .apartment-content-overlay{
+    background-color: rgb(0, 0, 0,.3);
+}
+
+.apartment-image:hover .aparment-content-overlay-hidden{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.apartment-image:hover .apartment-title{
+    transform: translateY(0);
+}
+
+
+
+.apartment-image{
     width: 100%;
 }
 
-.apartments .apartments-container .apartments-container-item .apartment-image img{
+.apartment-image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
