@@ -10,9 +10,9 @@ if (isset($_POST['submit'])) {
     $stmt->bind_param('s', $email);
 
     if ($stmt->execute()) {
-        header('Location: https://www.facebook.com'); 
+        header('Location: https://www.bonanza.rs'); 
     } else {
-        header('Location: https://www.youtube.com'); 
+        header('Location: https://www.bonanza.rs'); 
     }
 
     $stmt->close();
