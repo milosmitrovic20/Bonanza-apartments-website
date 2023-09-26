@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/logo.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/dbad9f8d2b.js" defer crossorigin="anonymous"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <title>Bonanza | Apartments | Nis</title>
 </head>
 <body>
@@ -194,6 +195,7 @@
                 </div>  
             </div>
         </section>
+        <div class="elfsight-app-025c78fb-54a1-4afb-882a-f246f42ed6a2"></div>
     </main>
     <footer>
         <div class="footer-top">
@@ -211,9 +213,9 @@
                 <div class="email-form">
                     <p class="fnt-w-b">PRIDRUŽITE SE KLUBU BONANZA</p>
                     <p class="mt">PRIMITE NAŠE NAJBOLJE PONUDE I UŽIVAJTE U POVLAŠĆENIM CENAMA!</p>
-                    <form action="post" target="_blank">
-                        <input class="mt" type="text" placeholder="Email">
-                        <button class="btn mt" type="submit">Pridruži se klubu!</button>
+                    <form action="php/sendToDatabase.php" method="post">
+                        <input class="mt" name="email" type="text" placeholder="Email">
+                        <button class="btn mt" name="submit" type="submit">Pridruži se klubu!</button>
                     </form>
                 </div>
             </div>
