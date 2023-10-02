@@ -26,7 +26,7 @@ a{
 
 .section-line{
     width: 12.5rem;
-    height: 0.125rem;
+    height: 0.031rem;
     background: #000;
     margin-top: 1.875rem;
 }
@@ -55,19 +55,19 @@ a{
 }
 
 .mt{
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .ml-sm{
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 .mt-sm{
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .ml-lg{
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 
 .fs{
@@ -76,25 +76,25 @@ a{
 
 .hidden-fnt{
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 0.313rem;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 500;
 }
 
 .ptb{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
 
 .plr{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
 }
 
 .plr-lg{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .section-bg{
@@ -103,7 +103,7 @@ a{
 
 .footer-bg{
     background-color: #fff;
-    border-top: 1px solid black;
+    border-top: 0.063rem solid black;
 }
 
 .hero-content{
@@ -112,9 +112,9 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 0.313rem;
 }
 /* ----------------------- root---------------------------------- */
 
@@ -123,7 +123,7 @@ header{
     background-color: transparent;
     position: absolute;
     top: 0;
-    height: 126px;
+    height: 7.875rem;
     width: 100%;
     z-index: 3;
 }
@@ -142,10 +142,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 header:hover {
@@ -174,28 +174,28 @@ header:hover .nav-bar a{
 }
 
 .language{
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 
 .btn{
     color: #fff;
     background-color: var(--gold);
-    border: 1px solid var(--gold);
-    padding: 12px 37px;
-    letter-spacing: 4px;
+    border: 0.063rem solid var(--gold);
+    padding: 0.75rem 2.313rem;
+    letter-spacing: 0.25rem;
     text-decoration: none;
 }
 
 .best-rate{
-    font-size: 8px;
-    letter-spacing: 3px;
-    margin-top: 17px;
+    font-size: 0.5rem;
+    letter-spacing: 0.188rem;
+    margin-top: 1.063rem;
 }
 
 .nav-bar{
     display: flex;
     background-color: rgba(0,0,0,.3);
-    height: 50px;
+    height: 3.125rem;
     justify-content: center;
     align-items: center;
 }
@@ -206,9 +206,9 @@ header:hover .nav-bar a{
 }
 
 .nav-menu li a{
-    font-size: 16px;
-    margin-left: 50px;
-    letter-spacing: 3px;
+    font-size: 1rem;
+    margin-left: 3.125rem;
+    letter-spacing: 0.188rem;
     text-decoration: none;
 }
 
@@ -237,25 +237,25 @@ header:hover .nav-bar a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 160px 120px;
+    padding: 10rem 7.5rem;
 }
 
 .about-us .about{
-    padding-right: 80px;
+    padding-right: 5rem;
     width: 50%;
 }
 
 .about-us .about h1{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .about-us .about h2{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .about-us p{
-    letter-spacing: 1px;
-    font-size: 14px;
+    letter-spacing: 0.063rem;
+    font-size: 0.875rem;
 }
 
 .about-us .mini-gallery{
@@ -274,11 +274,11 @@ header:hover .nav-bar a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 120px;
+    padding: 7.5rem 7.5rem;
 }
 
 .gallery h2{
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .gallery-container{
@@ -286,7 +286,7 @@ header:hover .nav-bar a{
     flex-wrap: wrap;
     align-items: flex-start;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .image{
@@ -332,21 +332,21 @@ header:hover .nav-bar a{
 }
 
 .gallery-container .w-three{
-    height: 500px;
+    height: 31.25rem;
     width: 58%;
     margin-top: 2%;
     margin-right: 2%;
 }
 
 .gallery-container .w-two{
-    height: 500px;
+    height: 31.25rem;
     width: 37%;
     margin-top: 2%;
     margin-right: 2%;
 }
 
 .gallery-container .w-one{
-    height: 500px;
+    height: 31.25rem;
     width: 28%;
     margin-top: 2%;
     margin-right: 2%;
@@ -361,7 +361,7 @@ header:hover .nav-bar a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 20.5%;
+    padding: 7.5rem 20.5%;
 }
 
 .video .video-container{
@@ -383,11 +383,11 @@ header:hover .nav-bar a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 120px;
+    padding: 7.5rem 7.5rem;
 }
 
 .apartments .apartments-container{
-    margin-top: 50px;
+    margin-top: 3.125rem;
     width: 100%;
     height: 100%;
 }
@@ -398,7 +398,7 @@ header:hover .nav-bar a{
 }
 
 .apartments .apartments-container .apartments-container-item{
-    height: 500px;
+    height: 31.25rem;
     width: 31%;
     margin: 0 1%;
 }
@@ -428,15 +428,15 @@ header:hover .nav-bar a{
 }
 
 .apartment-title{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 300;
-    transform: translateY(20px);
+    transform: translateY(1.25rem);
     transition: all .25s ease-in-out;
 }
 
 .apartments .aparment-content-overlay-hidden {
     opacity: 0;
-    transform: translateY(60px);
+    transform: translateY(3.75rem);
     transition: all .25s ease-in-out;
 }
 
@@ -453,8 +453,6 @@ header:hover .nav-bar a{
     transform: translateY(0);
 }
 
-
-
 .apartment-image{
     width: 100%;
 }
@@ -469,14 +467,14 @@ header:hover .nav-bar a{
 
 footer{
     background-color: var(--bggrey);
-    padding: 120px 120px 20px 120px;
+    padding: 7.5rem 7.5rem 1.25rem 7.5rem;
     position: relative;
 }
 
 .footer-top{
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 7.5rem;
 }
 
 .footer-top-left{
@@ -485,8 +483,8 @@ footer{
 }
 
 .footer-top-left .social-networks a{
-    margin-right: 20px;
-    font-size: 22px;
+    margin-right: 1.25rem;
+    font-size: 1.375rem;
     color: #000;
 }
 
@@ -497,16 +495,16 @@ footer{
 
 .footer-top-right .line{
     position: absolute;
-    height: 350px;
+    height: 21.875rem;
     top: 10%;
-    width: 2px;
+    width: 0.125rem;
     background: #deddde;
 }
 
 .email-form{
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 
 .email-form form{
@@ -517,9 +515,9 @@ footer{
 .email-form form input{
     background-color: transparent;
     border: 0;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    font-size: 16px;
+    border-bottom: 0.063rem solid black;
+    padding-bottom: 0.625rem;
+    font-size: 1rem;
     font-weight: 200;
 }
 
@@ -536,21 +534,21 @@ footer p {
 /* ------------------- Gallery Apartments ----------------- */
 
 .w-three{
-    height: 450px;
+    height: 28.125rem;
     width: 55%;
     margin-top: 3%;
     margin-right: 3%;
 }
 
 .w-two{
-    height: 450px;
+    height: 28.125rem;
     width: 39%;
     margin-top: 3%;
     margin-right: 3%;
 }
 
 .w-one{
-    height: 450px;
+    height: 28.125rem;
     width: 26%;
     margin-top: 3%;
     margin-right: 3%;
@@ -562,7 +560,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 120px;
+    padding: 7.5rem 7.5rem;
 }
 
 .images{
@@ -589,11 +587,11 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 120px;
+    padding: 5rem 7.5rem;
 }
 
 .accommodation-item{
-    margin-top: 80px;
+    margin-top: 5rem;
     background-color: #fff;
     width: 100%;
     display: flex;
@@ -607,7 +605,7 @@ footer p {
 
 .accommodataion-item-image{
     width: 65%;
-    height: 610px;
+    height: 38.125rem;
 }
 
 .accommodataion-item-image img{
@@ -620,16 +618,16 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .accomod-p-fnt{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 400;
 }
 
 .acomodation-item-content-description ul li{
-    margin: 10px 0;
+    margin: 0.625rem 0;
     font-weight: 300;
 }
 
@@ -640,7 +638,7 @@ footer p {
 }
 
 .row > .column {
-    padding: 0 8px;
+    padding: 0 0.5rem;
   }
   
   .row:after {
@@ -653,11 +651,11 @@ footer p {
   .mini-slider {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .column {
-    margin-right: 5px;
+    margin-right: 0.313rem;
   }
 
   .column:nth-child(6) {
@@ -673,7 +671,7 @@ footer p {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 6.25rem;
     left: 0;
     top: 0;
     width: 100%;
@@ -688,16 +686,16 @@ footer p {
     margin: auto;
     padding: 0;
     width: 50%;
-    max-width: 1200px;
+    max-width: 75rem;
   }
   
   /* The Close Button */
   .close {
     color: white;
     position: absolute;
-    top: 50px;
-    right: 382px;
-    font-size: 35px;
+    top: 3.125rem;
+    right: 23.875rem;
+    font-size: 2.188rem;
   }
   
   .close:hover,
@@ -719,13 +717,13 @@ footer p {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
-    margin-top: -50px;
+    padding: 1rem;
+    margin-top: -3.125rem;
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 300;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 0.188rem 0.188rem 0;
     user-select: none;
     -webkit-user-select: none;
   }
@@ -735,37 +733,37 @@ footer p {
     cursor: pointer;
     position: relative;
     width: auto;
-    padding: 12px;
+    padding: 0.75rem;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 0.188rem 0.188rem 0;
     user-select: none;
     -webkit-user-select: none;
   }
   
   /* Position the "next button" to the right */
   .next {
-    right: -350px;
+    right: -21.875rem;
   }
   
   .prev {
-    left: -350px;
+    left: -21.875rem;
   }
 
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.75rem;
     position: absolute;
     top: 0;
   }
 
   .column img{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
   }
   
   .active,
@@ -778,5 +776,5 @@ footer p {
   }
   
   .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
   }
