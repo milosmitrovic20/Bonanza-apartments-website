@@ -97,6 +97,10 @@ a{
     padding-right: 5rem;
 }
 
+.section{
+    width: 100%;
+}
+
 .section-bg{
     background-color: var(--bggrey);
 }
@@ -148,6 +152,10 @@ header{
     padding-right: 5rem;
 }
 
+.gallery-header{
+    background-color: #fff;
+}
+
 header:hover {
     color: #000;
 }
@@ -171,6 +179,12 @@ header:hover .nav-bar a{
 
 .booking{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-section {
+    padding-top: 10%;
 }
 
 .language{
@@ -194,7 +208,6 @@ header:hover .nav-bar a{
 
 .nav-bar{
     display: flex;
-    background-color: rgba(0,0,0,.3);
     height: 3.125rem;
     justify-content: center;
     align-items: center;
@@ -560,6 +573,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
     padding: 7.5rem 7.5rem;
 }
 
