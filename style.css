@@ -304,10 +304,12 @@ header:hover .nav-bar a{
 
 .image{
     position: relative;
+
 }
 
 .image img{
-    display: block;
+    /* display: block; */
+    max-width: 100%;
 }
 
 .image .image-overlay{
@@ -346,23 +348,27 @@ header:hover .nav-bar a{
 
 .gallery-container .w-three{
     height: 31.25rem;
-    width: 58%;
-    margin-top: 2%;
-    margin-right: 2%;
+    width: 60%;
+    margin-top: 3%;
+    margin-right: 3%;
 }
 
 .gallery-container .w-two{
     height: 31.25rem;
     width: 37%;
-    margin-top: 2%;
-    margin-right: 2%;
+    margin-top: 3%;
+    margin-right: 3%;
 }
 
 .gallery-container .w-one{
     height: 31.25rem;
-    width: 28%;
-    margin-top: 2%;
-    margin-right: 2%;
+    width: 28.5%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.gallery-container .n-m{
+    margin-right: 0;
 }
 
 /* ----------------------- GALLERY VIDEO ------------------------ */
