@@ -123,23 +123,23 @@ a{
 /* ----------------------- root---------------------------------- */
 
 header{
-    color: #fff;
-    background-color: transparent;
-    position: absolute;
+    color: #000;
+    background-color: #fff;
+    position: sticky;
     top: 0;
     height: 7.875rem;
     width: 100%;
-    z-index: 3;
+    z-index: 10;
 }
 
-.header-gradient{
+/* .header-gradient{
     background-image: linear-gradient(#000,transparent);
     position: absolute;
     top: 0;
     width: 100%;
     height: inherit;
     z-index: -2;
-}
+} */
 
 .upper-header{
     height: inherit;
@@ -164,16 +164,20 @@ header:hover .language a{
     color: #000;
 }
 
-header:hover .header-gradient{
+/* header:hover .header-gradient{
     background-image: none;
     background-color: #fff;
-}
+} */
 
 header:hover .nav-bar{
     background-color: #fff;
 }
 
 header:hover .nav-bar a{
+    color: #000;
+}
+
+.language a{
     color: #000;
 }
 
@@ -192,12 +196,28 @@ header:hover .nav-bar a{
 }
 
 .btn{
-    color: #fff;
     background-color: var(--gold);
-    border: 0.063rem solid var(--gold);
+    color: #fff;
     padding: 0.75rem 2.313rem;
+    border: 0.063rem solid var(--gold);
     letter-spacing: 0.25rem;
     text-decoration: none;
+    position: relative;
+}
+
+.btn.btn-primary::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #fff;
+}
+
+.btn.btn-primary{
+    z-index: 11;
 }
 
 .best-rate{
@@ -219,15 +239,16 @@ header:hover .nav-bar a{
 }
 
 .nav-menu li a{
+    color: #000;
     font-size: 1rem;
     margin-left: 3.125rem;
     letter-spacing: 0.188rem;
     text-decoration: none;
+    transition: all 0.15s ease-in;
 }
 
 .nav-menu li a:hover{
     color: var(--gold);
-    transition: all 0.25s ease-in;
 }
 
 /* ----------------------- HEADER ---------------------------------- */
@@ -548,6 +569,36 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+.btn.btn-ftr::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: -1;
+
+    transition: transform 0.25s ease-in;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.btn.btn-ftr:hover::before{
+    transform: scaleY(1);
+}
+
+.btn.btn-ftr{
+    cursor: pointer;
+    transition: color 0.25s ease-in;
+    z-index: 10000;
+}
+
+.btn.btn-ftr:hover,
+.btn.btn-ftr:focus{
+    color: var(--gold);
 }
 
 /* ------------------- Gallery Apartments ----------------- */
