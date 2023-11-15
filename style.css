@@ -212,12 +212,27 @@ header:hover .nav-bar a{
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
     background-color: #fff;
+    z-index: -10;
+
+    transition: transform 0.25s ease-in;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.btn.btn-primary:hover::before{
+    transform: scaleY(1);
 }
 
 .btn.btn-primary{
+    cursor: pointer;
+    transition: color 0.25s ease-in;
     z-index: 11;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus{
+    color: var(--gold);
 }
 
 .best-rate{
@@ -254,8 +269,10 @@ header:hover .nav-bar a{
 /* ----------------------- HEADER ---------------------------------- */
 
 .hero {
+    position: relative;
+    top: 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 7.875rem);
 }
 
 .hero-img{
@@ -526,6 +543,17 @@ footer{
     margin-right: 1.25rem;
     font-size: 1.375rem;
     color: #000;
+}
+
+.social-networks a{
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.25s ease-in;
+}
+
+.social-networks a:hover{
+    color: var(--gold);
 }
 
 .footer-top-right{
