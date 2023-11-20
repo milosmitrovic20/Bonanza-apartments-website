@@ -1,11 +1,13 @@
 function openModal() {
     document.getElementById("myModal").style.display = "block";
     document.body.style.overflow = 'hidden';
+    document.getElementsByTagName("header")[0].style.zIndex = '1';
 }
 
 function closeModal() {
     document.getElementById("myModal").style.display = "none";
     document.body.style.overflow = 'visible';
+    document.getElementsByTagName("header")[0].style.zIndex = '5';
 }
   
 let slideIndex = 1;
@@ -42,4 +44,14 @@ function showSlides(n) {
     
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
+}
+
+function myFunction() {
+    var x = document.querySelector(".nav-bar");
+
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
