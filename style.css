@@ -926,15 +926,46 @@ footer p {
     .gallery-container .w-three{
         height: 200px;
     }
+
+    footer{
+        padding: 50px;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .footer-top-right {
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer-top-left {
+        margin: 0;
+        width: 100%;
+    }
+
+    .email-form{
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .line {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
-    .nav-bar{
+    .nav-bar {
         display: none;
     }
+    
     .booking-section{
         display: none;
     }
+    
     .burger-menu{
         display: block;
     }
