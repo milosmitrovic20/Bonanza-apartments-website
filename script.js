@@ -1,4 +1,4 @@
-function openModal() {
+/*function openModal() {
     document.getElementById("myModal").style.display = "block";
     document.body.style.overflow = 'hidden';
     document.getElementsByTagName("header")[0].style.zIndex = '1';
@@ -54,29 +54,31 @@ function myFunction() {
     } else {
         x.style.display = "flex";
     }
-}
+}*/
 
-let slider = [
+// Gallery slider
+
+/*let slider = [
     {
-        img: 'images/slider-image3.jpg',
-        title: 'Efficient Learning Methods',
-        text: 'Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque euex eu urna venenatis sollicitudin ut at libero. Vist teplatemo page.',
+        img: 'images/superior1.jpg',
+        title: 'Superior',
+        text: 'Za opušten odmor vaše porodice',
     },
     {
-        img: 'images/slider-image2.jpg',
-        title: 'Start your journey with our practical courses',
-        text: 'Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque euex eu urna venenatis sollicitudin ut at libero. Vist teplatemo page.',
+        img: 'images/standard.jpg',
+        title: 'Standard',
+        text: 'Za opušten odmor vaše porodice',
     },
     {
-        img: 'images/slider-image1.jpg',
-        title: 'Distance Learning Education Center',
-        text: 'Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque euex eu urna venenatis sollicitudin ut at libero. Vist teplatemo page.',
+        img: 'images/studio.jpg',
+        title: 'Studio',
+        text: 'Za opušten odmor vaše porodice',
     }
 ]
 
-let sliderImg = document.querySelector('.slider-image')
-let sliderHeading = document.querySelector('.slider-heading')
-let sliderTxt = document.querySelector('.slider-text')
+let sliderImg = document.querySelector('.content-image')
+let sliderHeading = document.querySelector('.apartment-title')
+let sliderTxt = document.querySelector('.aparment-content-overlay-hidden')
 
 let prevBtn = document.querySelector('.left')
 let nextBtn = document.querySelector('.right')
@@ -108,4 +110,4 @@ nextBtn.addEventListener('click', function(){
         counter = slider.length - 1
     }
     showSlider()
-})
+})*/

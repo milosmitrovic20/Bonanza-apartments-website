@@ -1,3 +1,30 @@
 footer{
     background-color: #fff;
 }
+
+.slider {
+    height: 31.25rem;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+    .apartments-container {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+        justify-content: center;
+    }
+
+    .apartments-container-item{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    
+}
